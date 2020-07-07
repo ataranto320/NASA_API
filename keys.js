@@ -1,6 +1,6 @@
-// # NASA API keys
+console.log("this is loaded");
 
-//NASA_ID=
-//NASA_SECRET=
-
-// will update after updating npm packages
+exports.nasa = {
+    id: process.env.NASA_API,
+    secret: process.env.NASA_SECRET
+};
